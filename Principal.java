@@ -8,7 +8,6 @@ public class Principal {
         System.out.println("Bienvenido al sistema de reservas de vuelos.");
         System.out.println("¿Qué acción desea realizar?");
         System.out.println("1. Revisar su vuelo por número de vuelo");
-        System.out.println("2. Reservar un vuelo");
 
         int opcion = scanner.nextInt();
 
@@ -30,8 +29,6 @@ public class Principal {
             } else {
                 System.out.println("No se encontró ningún vuelo con el número ingresado.");
             }
-        } else if(opcion == 2) {
-            System.out.println("Opción no válida.");
         }
         else{
 
