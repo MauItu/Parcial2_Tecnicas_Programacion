@@ -8,7 +8,7 @@ public class ManejadorReservas {
     public ManejadorReservas() {
         listaVuelos = new ArrayList<>();
     }
-
+    //Tiempo lineal
     public List<Vuelo> buscarVuelosDisponibles(int numVuelo, String origen, String destino, String fecha) {
         List<Vuelo> vuelosDisponibles = new ArrayList<>();
         for (Vuelo vuelo : listaVuelos) {
@@ -20,7 +20,7 @@ public class ManejadorReservas {
         }
         return vuelosDisponibles;
     }
-
+    //Tiempo constante
     public boolean realizarReserva(Vuelo vuelo, Pasajeros pasajero, String fechaReserva) {
         if (vuelo.reservarAsiento()) {
             Reservas nuevaReserva = new Reservas(vuelo, pasajero, fechaReserva, true);
