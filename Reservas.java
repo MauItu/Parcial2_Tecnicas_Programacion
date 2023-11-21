@@ -3,7 +3,7 @@ public class Reservas {
     private Pasajeros pasajero;
     private String fechaReserva;
     private boolean confirmacion;
-
+    //Tiempo constante
     public Reservas(Vuelo vuelo, Pasajeros pasajero, String fechaReserva, boolean confirmacion) {
         this.vuelo = vuelo;
         this.pasajero = pasajero;
