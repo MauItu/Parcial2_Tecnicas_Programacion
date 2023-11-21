@@ -8,7 +8,7 @@ public class Principal {
         System.out.println("Bienvenido al sistema de reservas de vuelos.");
         System.out.println("¿Qué acción desea realizar?");
         System.out.println("1. Revisar su vuelo por número de vuelo");
-
+        //me rindo, no recorde como reservar el vuelo
         int opcion = scanner.nextInt();
 
         if (opcion == 1) {
