@@ -39,12 +39,5 @@ public class Principal {
         }
     }
 
-    private static Vuelo buscarVueloPorNumero(ManejadorReservas manejador, String numVuelo) {
-        for (Vuelo vuelo : manejador.getListaVuelos()) {
-            if (vuelo.getNumeroVuelo().equals(numVuelo)) {
-                return vuelo;
-            }
-        }
-        return null;
-    }
+    
 }
