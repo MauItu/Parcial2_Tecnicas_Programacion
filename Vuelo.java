@@ -1,4 +1,5 @@
 public class Vuelo {
+    //Complejidad constante en todo el codigo
     private String numeroVuelo;
     private String origen;
     private String destino;
